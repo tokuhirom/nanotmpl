@@ -1,0 +1,3 @@
+? import me.geso.nanotmpl.test.Person;
+@ Person person
+Greeting: <?= person.greeting() ?>
