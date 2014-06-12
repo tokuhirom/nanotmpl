@@ -42,5 +42,30 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.7</source>
+						<target>1.7</target>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
+    <distributionManagement>
+        <repository>
+            <id>bintray-tokuhirom-maven-nanotmpl</id>
+            <name>tokuhirom-maven-nanotmpl</name>
+            <url>https://api.bintray.com/maven/tokuhirom/maven/nanotmpl</url>
+        </repository>
+    </distributionManagement>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+
 </project>
